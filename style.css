@@ -61,11 +61,26 @@
     transform: scale(30%);
     transition: transform 1s;
 }
-/* //////////////////////   ESERCIZIO SEI */
-
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+/* //////////////////////   ESERCIZIO SEI */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+/* //////////////////////   ESERCIZIO SETTE */
+/* immagine sette non visibile, sostituita con immagine 6 */
+.ex-7-img:hover {
+    filter: blur(5px) opacity(.5);
+    transition: all .5s;
+}
+/* //////////////////////   ESERCIZIO OTTO */
+.ex-8-img:hover {
+    filter: brightness(130%) saturate(150%);
+    border-radius: 16px;
+    transition: all .5s;
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
